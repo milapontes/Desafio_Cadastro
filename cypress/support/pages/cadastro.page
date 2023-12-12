@@ -1,0 +1,47 @@
+const BTN_ACESSA_LOGIN = '.login'
+const INPUT_EMAIL = '#email_create'
+const BTN_INSERIR_EMAIL = '#SubmitCreate'
+const INPUT_FIRSTNAME = '#customer_firstname' 
+const INPUT_LASTNAME = '#customer_lastname'
+const INPUT_PASSWORD = '#passwd'
+const BTN_GENDER2 = '#id_gender2'
+const DAY = '#days'
+const MONTH = '#months'
+const YEAR = '#years'
+const BTN_NEWS = '#newsletter'
+const BTN_SUBMIT = '#submitAccount'
+const BTN_SUCESS = '.alert'
+
+
+Cypress.Commands.add('acessarLogin', () => {
+    cy.get(BTN_ACESSA_LOGIN).should('be.visible')
+ //   cy.screenshot('Botão Login validado')
+  //  cy.wait(5000)
+    cy.get(BTN_ACESSA_LOGIN).click()
+})
+
+Cypress.Commands.add('inserirEmail', () =>{
+    cy.get(BTN_INSERIR_EMAIL).should('be.visible')
+ //   cy.screenshot('Botão email validado')
+    cy.get(INPUT_EMAIL).type(Cypress.env('Cadastro_Loja').email)
+    cy.get(BTN_INSERIR_EMAIL).click()
+     })
+
+Cypress.Commands.add('preencherCampos', () =>{
+    cy.get(BTN_GENDER2).click()
+    cy.get(INPUT_FIRSTNAME).type(Cypress.env('Cadastro_Loja').firstname)
+    cy.get(INPUT_LASTNAME).type(Cypress.env('Cadastro_Loja').lastname)
+    cy.get(INPUT_PASSWORD).type('123456')
+    cy.get(DAY).select(11)
+    cy.get(MONTH).select('May')
+    cy.get(YEAR).select('1991')
+    cy.get(BTN_NEWS).click()
+    cy.get(BTN_SUBMIT).should('be.visible')
+    cy.get(BTN_SUBMIT).click()
+     
+  })
+
+Cypress.Commands.add('validarCadastro', () =>{
+    cy.get(BTN_SUCESS).should('be.visible')
+})
+

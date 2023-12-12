@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Cadastro Loja - Portal",
+    "line": 6,
+    "id": "cadastro-loja---portal",
+    "tags": [
+      {
+        "name": "@teste",
+        "line": 5
+      }
+    ],
+    "uri": "cadastroLoja.feature",
+    "elements": [
+      {
+        "id": "cadastro-loja---portal;validacao-cadastro-portal",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Validacao Cadastro Portal",
+        "tags": [
+          {
+            "name": "@teste",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que acesso o portal My Shop",
+            "result": {
+              "status": "passed",
+              "duration": 3003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 9,
+            "name": "realizo cadastro no portal",
+            "result": {
+              "status": "passed",
+              "duration": 10724000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 10,
+            "name": "valido cadastrado foi realizado",
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
