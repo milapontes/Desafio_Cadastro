@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "login Loja - Login Portal",
+    "line": 5,
+    "id": "login-loja---login-portal",
+    "tags": [
+      {
+        "name": "@teste",
+        "line": 4
+      }
+    ],
+    "uri": "loginLoja.feature",
+    "elements": [
+      {
+        "id": "login-loja---login-portal;validacao-login-incorreto-no-portal",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Validacao Login incorreto no Portal",
+        "tags": [
+          {
+            "name": "@teste",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que acesso o portal My Shop",
+            "result": {
+              "status": "passed",
+              "duration": 4222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 8,
+            "name": "insiro os dados do usuário no portal",
+            "result": {
+              "status": "passed",
+              "duration": 3487000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 9,
+            "name": "valido acesso negado a Home",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

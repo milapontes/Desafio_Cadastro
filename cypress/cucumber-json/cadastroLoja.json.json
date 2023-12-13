@@ -32,7 +32,7 @@
             "name": "que acesso o portal My Shop",
             "result": {
               "status": "passed",
-              "duration": 3003000000
+              "duration": 2764000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "realizo cadastro no portal",
             "result": {
               "status": "passed",
-              "duration": 10724000000
+              "duration": 13296000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "valido cadastrado foi realizado",
             "result": {
               "status": "passed",
-              "duration": 72000000
+              "duration": 27000000
             }
           }
         ]

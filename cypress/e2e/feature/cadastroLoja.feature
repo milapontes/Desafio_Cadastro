@@ -8,3 +8,4 @@ Funcionalidade: Cadastro Loja - Portal
         Dado que acesso o portal My Shop
         Quando realizo cadastro no portal
         Então valido cadastrado foi realizado
+

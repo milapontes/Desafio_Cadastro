@@ -4,7 +4,7 @@ const BTN_INSERIR_EMAIL = '#SubmitCreate'
 const INPUT_FIRSTNAME = '#customer_firstname' 
 const INPUT_LASTNAME = '#customer_lastname'
 const INPUT_PASSWORD = '#passwd'
-const BTN_GENDER2 = '#id_gender2'
+const BTN_CHECKBOX = '#id_gender2'
 const DAY = '#days'
 const MONTH = '#months'
 const YEAR = '#years'
@@ -21,14 +21,19 @@ Cypress.Commands.add('acessarLogin', () => {
 })
 
 Cypress.Commands.add('inserirEmail', () =>{
-    cy.get(BTN_INSERIR_EMAIL).should('be.visible')
- //   cy.screenshot('Botão email validado')
-    cy.get(INPUT_EMAIL).type(Cypress.env('Cadastro_Loja').email)
+   
+   cy.get(BTN_INSERIR_EMAIL).should('be.visible')
+  
+    var faker = require('faker-br')
+    let email= faker.name.firstName()
+    cy.get(INPUT_EMAIL).type(email +'18@teste.com.br')
+
+   // cy.get(INPUT_EMAIL).type(Cypress.env('Cadastro_Loja').email)
     cy.get(BTN_INSERIR_EMAIL).click()
      })
 
 Cypress.Commands.add('preencherCampos', () =>{
-    cy.get(BTN_GENDER2).click()
+    cy.get(BTN_CHECKBOX).click()
     cy.get(INPUT_FIRSTNAME).type(Cypress.env('Cadastro_Loja').firstname)
     cy.get(INPUT_LASTNAME).type(Cypress.env('Cadastro_Loja').lastname)
     cy.get(INPUT_PASSWORD).type('123456')

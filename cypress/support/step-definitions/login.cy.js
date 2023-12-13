@@ -2,14 +2,14 @@ Given('que acesso o portal My Shop', () => {
     cy.visit('/')
 })
 
-When('realizo cadastro no portal', () => {
+When('insiro os dados do usuário no portal', () => {
     cy.acessarLogin()
-    cy.inserirEmail()
-    cy.preencherCampos()
+    cy.loginIncorreto()
+   
 })
 
-Then('valido cadastrado foi realizado', () => {
-    cy.validarCadastro()
+Then('valido acesso negado a Home', () => {
+    cy.validarAcessoNegado()
 })
 
 
