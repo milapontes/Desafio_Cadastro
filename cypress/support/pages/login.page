@@ -3,11 +3,8 @@ const INPUT_LOGIN = '#email'
 const INPUT_SENHA = '#passwd'
 const BTN_SIGNIN= '#SubmitLogin'
 const MSG_ALERTA = '#center_column'
+const MSG_LOGIN = '.account'
 
-Cypress.Commands.add('acessarLogin', () => {
-    cy.get(BTN_ACESSA_LOGIN).should('be.visible')
-    cy.get(BTN_ACESSA_LOGIN).click()
-})
 
 
 Cypress.Commands.add('loginIncorreto', () => {
@@ -19,4 +16,14 @@ Cypress.Commands.add('loginIncorreto', () => {
 
 Cypress.Commands.add('validarAcessoNegado', () => {
     cy.get(MSG_ALERTA).should('be.visible')
+})
+
+Cypress.Commands.add('realizarLogin', () => {
+    cy.get(INPUT_LOGIN).type('treinamento_cypress@teste.com')
+    cy.get(INPUT_SENHA).type('!QAZ2wsx')
+    cy.get(BTN_SIGNIN).click()
+})
+
+Cypress.Commands.add('validarAcesso', () => {
+    cy.get(MSG_LOGIN).should('be.visible')
 })

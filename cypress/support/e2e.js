@@ -16,6 +16,7 @@
 import './commands'
 import './pages/cadastro.page'
 import './pages/login.page'
+import './pages/carrinho.page'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

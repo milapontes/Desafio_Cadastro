@@ -32,7 +32,7 @@
             "name": "que acesso o portal My Shop",
             "result": {
               "status": "passed",
-              "duration": 2764000000
+              "duration": 15418000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "realizo cadastro no portal",
             "result": {
               "status": "passed",
-              "duration": 13296000000
+              "duration": 24281000000
             }
           },
           {
@@ -52,7 +52,52 @@
             "name": "valido cadastrado foi realizado",
             "result": {
               "status": "passed",
-              "duration": 27000000
+              "duration": 30000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cadastro-loja---portal;validacao-de-usuário-já-cadastrado",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Validacao de Usuário Já Cadastrado",
+        "tags": [
+          {
+            "name": "@teste",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 13,
+            "name": "que acesso o portal My Shop",
+            "result": {
+              "status": "passed",
+              "duration": 1792000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 14,
+            "name": "preencho e-mail já cadastrado no portal",
+            "result": {
+              "status": "passed",
+              "duration": 2054000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 15,
+            "name": "valido que o usuário já está cadastrado",
+            "result": {
+              "status": "passed",
+              "duration": 453000000
             }
           }
         ]

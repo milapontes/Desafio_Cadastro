@@ -11,6 +11,8 @@ const YEAR = '#years'
 const BTN_NEWS = '#newsletter'
 const BTN_SUBMIT = '#submitAccount'
 const BTN_SUCESS = '.alert'
+const MSG_USUARIOCADASTRADO = '#create_account_error'
+
 
 
 Cypress.Commands.add('acessarLogin', () => {
@@ -27,8 +29,6 @@ Cypress.Commands.add('inserirEmail', () =>{
     var faker = require('faker-br')
     let email= faker.name.firstName()
     cy.get(INPUT_EMAIL).type(email +'18@teste.com.br')
-
-   // cy.get(INPUT_EMAIL).type(Cypress.env('Cadastro_Loja').email)
     cy.get(BTN_INSERIR_EMAIL).click()
      })
 
@@ -48,5 +48,16 @@ Cypress.Commands.add('preencherCampos', () =>{
 
 Cypress.Commands.add('validarCadastro', () =>{
     cy.get(BTN_SUCESS).should('be.visible')
+})
+
+
+Cypress.Commands.add('preencherUsuarioCadastrado',() =>{
+cy.get(INPUT_EMAIL).type('treinamento_cypress@teste.com')
+cy.get(BTN_INSERIR_EMAIL).click()
+
+})
+
+Cypress.Commands.add('validarEmailCadastrado', () =>{
+cy.get(MSG_USUARIOCADASTRADO).should('be.visible')
 })
 
