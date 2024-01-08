@@ -2,9 +2,9 @@ Given('que acesso o portal My Shop', () => {
     cy.visit('/')
 })
 
-When('insiro os dados incorreto do usuário no portal', () => {
+When('insiro a senha incorreta do usuário no portal', () => {
     cy.acessarLogin()
-    cy.loginIncorreto()
+    cy.senhaIncorreta()
    
 })
 

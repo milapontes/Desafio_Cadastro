@@ -8,5 +8,5 @@ When('realizo o login e adiciono produto no carrinho', () => {
 })
  
 Then('valido que o produto foi adicionado', () => {
-    
+   cy.validarProdutoAdicionado()
 })

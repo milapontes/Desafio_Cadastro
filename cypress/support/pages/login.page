@@ -7,7 +7,7 @@ const MSG_LOGIN = '.account'
 
 
 
-Cypress.Commands.add('loginIncorreto', () => {
+Cypress.Commands.add('senhaIncorreta', () => {
     cy.get(INPUT_LOGIN).type('treinamento_cypress@teste.com')
     cy.get(INPUT_SENHA).type('1234')  
     cy.get(BTN_SIGNIN).should('be.visible')
@@ -16,6 +16,8 @@ Cypress.Commands.add('loginIncorreto', () => {
 
 Cypress.Commands.add('validarAcessoNegado', () => {
     cy.get(MSG_ALERTA).should('be.visible')
+    cy.screenshot('AcessoNegado validado')
+
 })
 
 Cypress.Commands.add('realizarLogin', () => {
@@ -26,4 +28,5 @@ Cypress.Commands.add('realizarLogin', () => {
 
 Cypress.Commands.add('validarAcesso', () => {
     cy.get(MSG_LOGIN).should('be.visible')
+    cy.screenshot('Acesso validado')
 })

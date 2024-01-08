@@ -13,10 +13,10 @@
     "uri": "loginLoja.feature",
     "elements": [
       {
-        "id": "login-loja---login-portal;validacao-login-incorreto-no-portal",
+        "id": "login-loja---login-portal;validacao-senha-incorreta-no-portal",
         "keyword": "Scenario",
         "line": 6,
-        "name": "Validacao Login incorreto no Portal",
+        "name": "Validacao Senha incorreta no Portal",
         "tags": [
           {
             "name": "@teste",
@@ -32,17 +32,17 @@
             "name": "que acesso o portal My Shop",
             "result": {
               "status": "passed",
-              "duration": 3254000000
+              "duration": 4478000000
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
             "line": 8,
-            "name": "insiro os dados incorreto do usuário no portal",
+            "name": "insiro a senha incorreta do usuário no portal",
             "result": {
               "status": "passed",
-              "duration": 4500000000
+              "duration": 7629000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "valido acesso negado a Home",
             "result": {
               "status": "passed",
-              "duration": 62000000
+              "duration": 2690000000
             }
           }
         ]
@@ -77,7 +77,7 @@
             "name": "que acesso o portal My Shop",
             "result": {
               "status": "passed",
-              "duration": 4687000000
+              "duration": 1763000000
             }
           },
           {
@@ -87,7 +87,7 @@
             "name": "insiro os dados do usuário no portal",
             "result": {
               "status": "passed",
-              "duration": 3714000000
+              "duration": 7394000000
             }
           },
           {
@@ -97,7 +97,7 @@
             "name": "valido acesso ao Home",
             "result": {
               "status": "passed",
-              "duration": 47000000
+              "duration": 2180000000
             }
           }
         ]

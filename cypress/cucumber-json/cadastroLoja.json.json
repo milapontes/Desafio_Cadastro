@@ -32,7 +32,7 @@
             "name": "que acesso o portal My Shop",
             "result": {
               "status": "passed",
-              "duration": 15418000000
+              "duration": 7955000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "realizo cadastro no portal",
             "result": {
               "status": "passed",
-              "duration": 24281000000
+              "duration": 20232000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "valido cadastrado foi realizado",
             "result": {
               "status": "passed",
-              "duration": 30000000
+              "duration": 3223000000
             }
           }
         ]
@@ -77,7 +77,7 @@
             "name": "que acesso o portal My Shop",
             "result": {
               "status": "passed",
-              "duration": 1792000000
+              "duration": 2071000000
             }
           },
           {
@@ -87,7 +87,7 @@
             "name": "preencho e-mail já cadastrado no portal",
             "result": {
               "status": "passed",
-              "duration": 2054000000
+              "duration": 6651000000
             }
           },
           {
@@ -97,7 +97,7 @@
             "name": "valido que o usuário já está cadastrado",
             "result": {
               "status": "passed",
-              "duration": 453000000
+              "duration": 3620000000
             }
           }
         ]
