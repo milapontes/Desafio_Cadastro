@@ -29,7 +29,9 @@ Cypress.Commands.add('adicionarProduto', () => {
 });
 
 Cypress.Commands.add('validarProdutoAdicionado',() => {
+     cy.wait(5000)
+     cy.screenshot('Produto Adicionado')
      cy.get(PRODUTO_ADICIONADO).should('be.visible')
      cy.get('.layer_cart_product').contains('Product successfully added to your shopping cart')
-      cy.screenshot('Produto Adicionado')
+      
 })
