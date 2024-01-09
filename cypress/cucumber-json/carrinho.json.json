@@ -32,7 +32,7 @@
             "name": "que acesso o portal My Shop",
             "result": {
               "status": "passed",
-              "duration": 2924000000
+              "duration": 11241000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "realizo o login e adiciono produto no carrinho",
             "result": {
               "status": "passed",
-              "duration": 20962000000
+              "duration": 121314000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "valido que o produto foi adicionado",
             "result": {
               "status": "passed",
-              "duration": 6830000000
+              "duration": 26877000000
             }
           }
         ]

@@ -5,13 +5,14 @@ IFRAME = '.fancybox-iframe'
 PRODUTO_ADICIONADO = '.layer_cart_product > h2'
 
 Cypress.Commands.add('getIframeBody', (iframeSelector) => {
- return cy
-   .get(iframeSelector)
-   .its('0.contentDocument.body')
-   .should('not.be.empty')
-   .then(cy.wrap);
-});
+    return cy
+      .get(iframeSelector)
+      .its('0.contentDocument.body')
+      .should('not.be.empty')
+      .then(cy.wrap);
+   });
 
+   
 Cypress.Commands.add('clicarMenu', () => {
  cy.get(MENU_WOMEN).click().should('be.visible');
 });
