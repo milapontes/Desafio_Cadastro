@@ -1,23 +1,23 @@
 ### 👩‍💻  Projeto desenvolvido em automação de teste utilizando Cypress com as principais validando as funcionalidades de um site de loja de roupas:
 
-✔️ Cadastro com Sucesso
-✔️ Tentativa de Cadastro com Usuário Já Cadastrado
-✔️ Login com Sucesso
-✔️ Login com Senha Incorreta
-✔️ Adicionar Produto ao Carrinho
+✔️ Cadastro com Sucesso<br>
+✔️ Tentativa de Cadastro com Usuário Já Cadastrado<br>
+✔️ Login com Sucesso<br>
+✔️ Login com Senha Incorreta<br>
+✔️ Adicionar Produto ao Carrinho<br>
 
 ### 📌Desenvolvimento
 
-🔸 Arquivo ENV
-🔸 Screenshot
-🔸 Mapeamento Frame
-🔸 Fakebr 
+🔸 Arquivo ENV<br>
+🔸 Screenshot<br>
+🔸 Mapeamento Frame<br>
+🔸 Fakebr <br>
 
 ### 📌Ferramentas
-🔸 Nodejs
-🔸 Cypress
-🔸 Git
-🔸 Visual Studio Code
+🔸 Nodejs<br>
+🔸 Cypress<br>
+🔸 Git<br>
+🔸 Visual Studio Code<br>
 
 
 
