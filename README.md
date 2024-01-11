@@ -1,4 +1,4 @@
-### 👩‍💻  Projeto desenvolvido em automação de teste utilizando Cypress com as principais validando as funcionalidades de um site de loja de roupas:
+### 👩‍💻 Projeto desenvolvido em automação de teste, utilizando Cypress, validando as principais funcionalidades de um site de loja de roupas:
 
 ✔️ Cadastro com Sucesso<br>
 ✔️ Tentativa de Cadastro com Usuário Já Cadastrado<br>
