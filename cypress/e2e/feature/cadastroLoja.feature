@@ -6,8 +6,8 @@
 Funcionalidade: Cadastro Loja - Portal
     Cenário: Validacao Cadastro Portal
         Dado que acesso o portal My Shop
-        Quando realizo cadastro no portal
-        Então valido cadastrado foi realizado
+        Quando realizo o cadastro
+        Então valido que o cadastro foi realizado
 
     Cenário: Validacao de Usuário Já Cadastrado
         Dado que acesso o portal My Shop

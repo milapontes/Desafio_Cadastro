@@ -1,26 +1,26 @@
 [
   {
     "keyword": "Funcionalidade",
-    "name": "login Loja - Login Portal",
-    "line": 5,
-    "id": "login-loja---login-portal",
+    "name": "Login Portal",
+    "line": 4,
+    "id": "login-portal",
     "tags": [
       {
         "name": "@teste",
-        "line": 4
+        "line": 3
       }
     ],
     "uri": "loginLoja.feature",
     "elements": [
       {
-        "id": "login-loja---login-portal;validacao-senha-incorreta-no-portal",
+        "id": "login-portal;validacao-login-sucesso-no-portal",
         "keyword": "Scenario",
-        "line": 6,
-        "name": "Validacao Senha incorreta no Portal",
+        "line": 5,
+        "name": "Validacao Login sucesso no Portal",
         "tags": [
           {
             "name": "@teste",
-            "line": 4
+            "line": 3
           }
         ],
         "type": "scenario",
@@ -28,44 +28,44 @@
           {
             "arguments": [],
             "keyword": "Dado ",
-            "line": 7,
+            "line": 6,
             "name": "que acesso o portal My Shop",
             "result": {
               "status": "passed",
-              "duration": 4478000000
+              "duration": 4174000000
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 8,
-            "name": "insiro a senha incorreta do usuário no portal",
+            "line": 7,
+            "name": "insiro os dados do usuário no portal",
             "result": {
               "status": "passed",
-              "duration": 7629000000
+              "duration": 2420000000
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 9,
-            "name": "valido acesso negado a Home",
+            "line": 8,
+            "name": "valido acesso ao Home",
             "result": {
               "status": "passed",
-              "duration": 2690000000
+              "duration": 5662000000
             }
           }
         ]
       },
       {
-        "id": "login-loja---login-portal;validacao-login-sucesso-no-portal",
+        "id": "login-portal;validacao-senha-incorreta-no-portal",
         "keyword": "Scenario",
-        "line": 11,
-        "name": "Validacao Login sucesso no Portal",
+        "line": 10,
+        "name": "Validacao Senha incorreta no Portal",
         "tags": [
           {
             "name": "@teste",
-            "line": 4
+            "line": 3
           }
         ],
         "type": "scenario",
@@ -73,31 +73,31 @@
           {
             "arguments": [],
             "keyword": "Dado ",
-            "line": 12,
+            "line": 11,
             "name": "que acesso o portal My Shop",
             "result": {
               "status": "passed",
-              "duration": 1763000000
+              "duration": 3277000000
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 13,
-            "name": "insiro os dados do usuário no portal",
+            "line": 12,
+            "name": "insiro a senha incorreta do usuário no portal",
             "result": {
               "status": "passed",
-              "duration": 7394000000
+              "duration": 2582000000
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 14,
-            "name": "valido acesso ao Home",
+            "line": 13,
+            "name": "valido acesso negado a Home",
             "result": {
               "status": "passed",
-              "duration": 2180000000
+              "duration": 4930000000
             }
           }
         ]

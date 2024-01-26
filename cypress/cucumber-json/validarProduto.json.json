@@ -1,0 +1,242 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Validar Produto",
+    "line": 4,
+    "id": "validar-produto",
+    "tags": [
+      {
+        "name": "@teste",
+        "line": 3
+      }
+    ],
+    "uri": "validarProduto.feature",
+    "elements": [
+      {
+        "id": "validar-produto;validacao-produto-blouse",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Validacao Produto Blouse",
+        "tags": [
+          {
+            "name": "@teste",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 6,
+            "name": "que acesso o portal My Shop",
+            "result": {
+              "status": "passed",
+              "duration": 4414000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 7,
+            "name": "insiro os dados do usuário no portal",
+            "result": {
+              "status": "passed",
+              "duration": 2467000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "acesso a categoria Women",
+            "result": {
+              "status": "passed",
+              "duration": 1112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "valido a quantidade de produtos na pagina",
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "acesso o produto 'Blouse'",
+            "result": {
+              "status": "passed",
+              "duration": 1563000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "realizo as validações do produto",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-produto;validacao-produto-printed-summer-dress",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Validacao Produto Printed Summer Dress",
+        "tags": [
+          {
+            "name": "@teste",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que acesso o portal My Shop",
+            "result": {
+              "status": "passed",
+              "duration": 2184000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 15,
+            "name": "insiro os dados do usuário no portal",
+            "result": {
+              "status": "passed",
+              "duration": 2208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 16,
+            "name": "acesso a categoria Women",
+            "result": {
+              "status": "passed",
+              "duration": 1674000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 17,
+            "name": "valido a quantidade de produtos na pagina",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 18,
+            "name": "acesso o produto 'Printed Summer Dress'",
+            "result": {
+              "status": "passed",
+              "duration": 1744000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 19,
+            "name": "realizo as validações do produto",
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-produto;validacao-produto-printed-chiffon-dress",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Validacao Produto Printed Chiffon Dress",
+        "tags": [
+          {
+            "name": "@teste",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 22,
+            "name": "que acesso o portal My Shop",
+            "result": {
+              "status": "passed",
+              "duration": 2818000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 23,
+            "name": "insiro os dados do usuário no portal",
+            "result": {
+              "status": "passed",
+              "duration": 2046000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 24,
+            "name": "acesso a categoria Women",
+            "result": {
+              "status": "passed",
+              "duration": 1107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 25,
+            "name": "valido a quantidade de produtos na pagina",
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 26,
+            "name": "acesso o produto 'Printed Chiffon Dress'",
+            "result": {
+              "status": "passed",
+              "duration": 1979000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 27,
+            "name": "realizo as validações do produto",
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

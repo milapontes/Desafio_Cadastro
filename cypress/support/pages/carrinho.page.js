@@ -1,8 +1,8 @@
-MENU_WOMEN = '.sf-menu > :nth-child(1)'
-BTN_VESTIDO = ':nth-child(2) > .product-container > .left-block > .product-image-container > .product_img_link > .replace-2x'
-BTN_ADC_CARRINHO = '#add_to_cart'
-IFRAME = '.fancybox-iframe'
-PRODUTO_ADICIONADO = '.layer_cart_product > h2'
+const MENU_WOMEN = '.sf-menu > :nth-child(1)'
+const BTN_VESTIDO = ':nth-child(2) > .product-container > .left-block > .product-image-container > .product_img_link > .replace-2x'
+const BTN_ADC_CARRINHO = '#add_to_cart'
+const IFRAME = '.fancybox-iframe'
+const PRODUTO_ADICIONADO = '.layer_cart_product > h2'
 
 Cypress.Commands.add('getIframeBody', (iframeSelector) => {
     return cy

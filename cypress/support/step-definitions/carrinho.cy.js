@@ -1,5 +1,4 @@
 When('realizo o login e adiciono produto no carrinho', () => {
-    cy.acessarLogin()
     cy.realizarLogin()
     cy.validarAcesso()
     cy.clicarMenu()
