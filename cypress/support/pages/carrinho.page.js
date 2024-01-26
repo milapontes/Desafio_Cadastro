@@ -4,6 +4,7 @@ const BTN_ADC_CARRINHO = '#add_to_cart'
 const IFRAME = '.fancybox-iframe'
 const PRODUTO_ADICIONADO = '.layer_cart_product > h2'
 
+//mapeamento do Iframe
 Cypress.Commands.add('getIframeBody', (iframeSelector) => {
     return cy
       .get(iframeSelector)
@@ -17,9 +18,10 @@ Cypress.Commands.add('clicarMenu', () => {
  cy.get(MENU_WOMEN).click().should('be.visible');
 });
 
+// Chama o comando clicarMenu para abrir o menu Women
 
 Cypress.Commands.add('adicionarProduto', () => {
- cy.clicarMenu(); // Chama o comando clicarMenu para abrir o menu Women
+ cy.clicarMenu(); 
  cy.get(BTN_VESTIDO).click();
  cy.wait(4000);
  cy.getIframeBody(IFRAME)
