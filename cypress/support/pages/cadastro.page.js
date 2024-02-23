@@ -21,9 +21,7 @@ Cypress.Commands.add('preencherCampos', () =>{
     cy.get(INPUT_LASTNAME).type(Cypress.env('Cadastro_Loja').lastname)
     cy.log('RETORNODOEMAIL',Cypress.env('loginEmail'))
     cy.get(EMAIL).should('have.value', Cypress.env('loginEmail'));
-    // cy.get(EMAIL).should('include.text', Cypress.env('loginEmail'));
-    //cy.get(EMAIL).should.be('be.contains', Cypress.env('loginEmail'))
-    cy.get(INPUT_PASSWORD).type('123456')
+    cy.get(INPUT_PASSWORD).type(Cypress.env('Cadastro_Loja').password)
     cy.get(DAY).select(11)
     cy.get(MONTH).select('May')
     cy.get(YEAR).select('1991')
@@ -35,6 +33,7 @@ Cypress.Commands.add('preencherCampos', () =>{
   })
 
 //Validando que o cadastro foi realizado com sucesso
+//va
 
   Cypress.Commands.add('validarCadastro', () =>{
     cy.get(MENSAGEM_SUCESSO_CADASTRO).should('be.visible')

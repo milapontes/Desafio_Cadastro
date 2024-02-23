@@ -45,7 +45,7 @@ Cypress.Commands.add('inserirEmail', () => {
 
     var faker = require('faker-br')
     let nome = faker.name.firstName()
-    let loginEmail = nome + '18@teste.com.br'
+    let loginEmail = nome + '321@teste.com.br'
     Cypress.env('loginEmail', loginEmail)
     cy.get(INPUT_EMAIL).type(loginEmail)
     cy.get(BTN_INSERIR_EMAIL).click()
